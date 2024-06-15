@@ -23,5 +23,6 @@ public class ImobiliarioApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		Principal principal = new Principal(pessoaRepository, imovelRepository);
 		principal.exibirMenu();
+		System.out.println("teste");
 	}
 }
